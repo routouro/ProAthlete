@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails ProAthleteAutomation: development" uuid="710bf051-520e-46e7-aa6e-abcc7ae6e14b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ProAthleteAutomation: test" uuid="69db39aa-849d-4f24-b543-aed3abfa25fa">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ProAthleteAutomation: cucumber" uuid="749632c6-72f5-486f-a642-c35f18609bfe">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

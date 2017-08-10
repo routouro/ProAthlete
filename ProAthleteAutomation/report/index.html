@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <link href='stylesheets/style.css' type='text/css' rel='stylesheet' />
+    <meta charset="utf-8">
+    <title>Test Results</title>
+  </head>
+
+  <body>
+    <div style="float: left; clear:both;">
+      <div class="header_logo">
+        <img src='images/logo.png' width="200" />
+      </div>
+      <div class="header_description">
+          <h2 class="results">Test Results</h2>
+
+
+        <table class="run_stats">
+          <tr>
+            <td>started:</td>
+            <td>duration: </td>
+          </tr>
+          <tr>
+            <td>Fri June 20, 2014 at 16:46:25</td>            
+            <td>11m5.114s</td>
+          </tr>
+        </table> 
+      </div>
+     </div>
+  <div class="summary_body">
+      <table class="StatTable">
+        <tr>
+          <th>Summary</th>
+          <th>Executed</th>
+	  <th class="passed"><img src="images/table_passed.png"> Passed</th>
+          <th class="failed"><img src="images/table_failed.png">Failed</th>
+          <th class="skipped"><img src="images/table_skipped.png">Skipped</th>
+          <th class="undefined"><img src="images/table_undefined.png">Undefined</th>
+          <th class="pending"><img src="images/table_pending.png">Pending</th>
+          <th>Average Duration</th>
+        </tr>
+        <tr class="summary_row_header">
+	  <td>Scenarios</td>
+          <td>26</td>
+          <td>24 <span class="percentage">(92.3%)</span></td>
+          <td>2 <span class="percentage">(7.7%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0m25.579s</td>
+        </tr>
+        <tr class="summary_row_header">
+          <td >Steps</td>
+          <td>212</td>
+          <td>198 <span class="percentage">(93.4%)</span></td>
+          <td>2 <span class="percentage">(0.9%)</span></td>
+          <td>12 <span class="percentage">(5.7%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>1m16.479s</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="failures">
+      <br />
+      <h2>Tests With Failures:</h2>
+      <br />
+      <table cellspacing="0" cellpadding="7" border="0">
+        <tr style="background-color: #E0E0E0;">
+          <th></th>
+          <th style="text-align: left;">Feature</th>
+          <th style="text-align: left;">Scenario</th>
+          <th style="text-align: left;">File</th>
+        </tr>
+        <tr>
+          <td><img src="images/failed.png" width="30"/></td>
+          <td>Buy baseball bat and baseball gloves with different shipping and billing information and checkout on </td>
+          <td>Buy baseball bat and buy baseball glove</td>
+          <td style="color: gray;">features\buy_baseball_bat_and_baseball_glove.feature:23:in `| http://www.justbats.com | http://www.justballgloves.com | 2 | 4001111 |&#39;</td>
+        </tr>
+        <tr>
+          <td><img src="images/failed.png" width="30"/></td>
+          <td>Buy baseball bat and baseball gloves with different shipping and billing information and checkout on </td>
+          <td>Buy baseball bat and buy baseball glove</td>
+          <td style="color: gray;">features\buy_baseball_bat_and_baseball_glove.feature:24:in `| http://www.justballgloves.com | http://www.justbats.com | 4 | 4001111 |&#39;</td>
+        </tr>
+      </table>
+
+      <section class="feature-overview">
+        <br />
+        <h2 class="scenarios">Feature Overview:</h2>
+        <br />
+
+        <table cellspacing="0" cellpadding="7" border="0">
+          <tr>
+            <th>Feature</th>
+            <th>File</th>
+            <th>Passed</th>
+            <th>Failed</th>
+            <th>Pending</th>
+            <th>Undefined</th>
+            <th>Skipped</th>
+            <th>Duration</th>
+          </tr>
+          <tr>
+            <td class="feature_title">
+              <a href="add_customer_question.html">Add customer question for item</a>
+            </td>
+            <td>
+              add_customer_question.html
+            </td>
+            <td>
+              4
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              1m9.716s
+            </td>
+          </tr>
+          <tr>
+            <td class="feature_title">
+              <a href="add_customer_review.html">Add customer review for item</a>
+            </td>
+            <td>
+              add_customer_review.html
+            </td>
+            <td>
+              4
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0m46.197s
+            </td>
+          </tr>
+          <tr>
+            <td class="feature_title">
+              <a href="buy_baseball_bat.html">Buy baseball bat(gloves) with equal shipping and billing information</a>
+            </td>
+            <td>
+              buy_baseball_bat.html
+            </td>
+            <td>
+              4
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              2m9.685s
+            </td>
+          </tr>
+          <tr>
+            <td class="feature_title">
+              <a href="buy_baseball_bat_and_baseball_glove.html">Buy baseball bat and baseball gloves with different shipping and billing information and checkout on</a>
+            </td>
+            <td>
+              buy_baseball_bat_and_baseball_glove.html
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              2m43.125s
+            </td>
+          </tr>
+          <tr>
+            <td class="feature_title">
+              <a href="buy_baseball_bat_different_shipping_and_billing.html">Buy baseball bat with different shipping and billing information</a>
+            </td>
+            <td>
+              buy_baseball_bat_different_shipping_and_billing.html
+            </td>
+            <td>
+              4
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              3m9.463s
+            </td>
+          </tr>
+          <tr>
+            <td class="feature_title">
+              <a href="email_orders.html">Email orders</a>
+            </td>
+            <td>
+              email_orders.html
+            </td>
+            <td>
+              4
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0m33.670s
+            </td>
+          </tr>
+          <tr>
+            <td class="feature_title">
+              <a href="order_lookup.html">Order lookup feature</a>
+            </td>
+            <td>
+              order_lookup.html
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              0m33.256s
+            </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+
+    <div class="footer">
+      Generated by PrettyFace
+    </div>
+
+  </body>
+</html>

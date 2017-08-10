@@ -1,0 +1,620 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <link href='stylesheets/style.css' type='text/css' rel='stylesheet' />
+    <meta charset="utf-8">
+    <title>Feature Results</title>
+  </head>
+
+  <body>
+    
+    <div style="clear: both; width: 100%; background-color: #F6F6F6;">
+      <a href="report/index.html" style="color=#0071BC;">&lt; Back</a>
+    </div>
+
+    <div style="float:left; clear:both;">
+      <div class="header_logo">
+        <img src="images/logo.png" width="200" />
+      </div>
+      <div class="header_description" >
+          <h2 class="results">Feature Results:  Buy baseball bat and baseball gloves with different shipping and billing information and checkout on</h2>
+<br />
+
+
+        <table class="run_stats">
+          <tr>
+            <td>started:</td>
+            <td>duration:</td>
+          </tr>
+          <tr>
+            <td>Friday June 20, 2014 at 16:50:30</td>
+            <td>2m43.125s</td>
+          </tr>
+        </table>  
+      </div>
+    </div>
+
+    <div class="summary_body">
+        <table class="StatTable">
+         <tr>
+          <th>Summary</th>
+          <th>Executed</th>
+	  <th class="passed"><img src="images/table_passed.png" alt="passed" title="passed"> Passed</th>
+          <th class="failed"><img src="images/table_failed.png" alt="failed" title="failed"> Failed</th>
+          <th class="skipped"><img src="images/table_skipped.png" alt="skipped" title="skipped"> Skipped</th>
+          <th class="undefined"><img src="images/table_undefined.png" alt="undefined" title="undefined"> Undefined</th>
+          <th class="pending" ><img src="images/table_pending.png" alt="pending" title="pending"> Pending</th>
+          <th>Average Duration</th>
+        </tr>
+
+        <tr class="summary_row_header">
+          <td>Scenarios</td>
+          <td>4</td>
+          <td>2 <span class="percentage">(50.0%)</span></td>
+          <td>2 <span class="percentage">(50.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0m40.775s</td>
+        </tr>
+        <tr class="summary_row_header">
+          <td>Steps</td>
+          <td>56</td>
+          <td>42 <span class="percentage">(75.0%)</span></td>
+          <td>2 <span class="percentage">(3.6%)</span></td>
+          <td>12 <span class="percentage">(21.4%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>0 <span class="percentage">(0.0%)</span></td>
+          <td>1m42.746s</td>
+        </tr>
+
+
+      </table>
+	</div>
+
+    <div class="feature_background">
+	    <div class="scenario_list">
+	      <table cellspacing="0" cellpadding="7" border="0" width="100%">
+	      </table>
+	      <br />
+	      <h2 class="scenarios">Scenarios:</h2>
+	      <br />
+	      <table cellspacing="0" cellpadding="7" class="scenario" width="100%">
+	      <tr >
+		  <th colspan="2" class="failed">Buy baseball bat and buy baseball glove</th>
+		</tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Given  I on main page of site &quot;http://www.justbats.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select an item from the products grid &quot;http://www.justbats.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I add the item to the cart
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select &quot;http://www.justballgloves.com&quot; from the brand switch at the top of the page
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select an item from the products grid &quot;http://www.justballgloves.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I add the item to the cart
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I am back to the checkout of &quot;http://www.justbats.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/failed.png" alt="failed" title="failed"></td>
+		  <td class="">
+   
+		  When  I check items count &quot;2&quot;
+	<table>
+		<tr class="error">
+			<td class="message">
+				<strong><pre>Subtotal count dont match! (RSpec::Expectations::ExpectationNotMetError)</pre></strong>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<pre class="ruby"><strong>./features/step_definitions/buy_baseball_steps.rb
+</strong><code><span class="linenum">97</span>
+<span class="linenum">98</span><span class="constant">And</span><span class="punct">(/</span><span class="regex">^I check items count &quot;([^&quot;]*)&quot;$</span><span class="punct">/)</span> <span class="keyword">do</span> <span class="punct">|</span><span class="ident">count</span><span class="punct">|</span>
+<span class="offending"><span class="linenum">99</span>  <span class="ident">assert</span> <span class="ident">page</span><span class="punct">.</span><span class="ident">find</span><span class="punct">(</span><span class="symbol">:xpath</span><span class="punct">,</span> <span class="constant">ShoppingCartPage</span><span class="punct">.</span><span class="ident">subtotal_count</span><span class="punct">).</span><span class="ident">should</span> <span class="ident">have_text</span><span class="punct">(</span><span class="ident">count</span><span class="punct">),</span> <span class="punct">'</span><span class="string">Subtotal count dont match!</span><span class="punct">'</span></span>
+<span class="linenum">100</span><span class="keyword">end</span></code></pre>
+			</td>
+		</tr>
+		<tr >
+			<td class="detail">
+					<pre>./features/step_definitions/buy_baseball_steps.rb:99:in `/^I check items count &quot;([^&quot;]*)&quot;$/&#39;
+features\buy_baseball_bat_and_baseball_glove.feature:12:in `And I check items count &quot;&lt;count&gt;&quot;&#39;</pre>
+			</td>
+		</tr>
+	</table>
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I select the checkout button
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I fill in my customer shipping details &quot;http://www.justbats.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I fill in my billing information &quot;http://www.justbats.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I fill in my payment details &quot;http://www.justbats.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I click order button &quot;http://www.justbats.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  Then  I capture an order number &quot;4001111&quot;
+
+		  </td>
+		  </tr>
+	      </table>
+	    
+        <div class="img_container">
+		        <a href='' onclick="img=document.getElementById('img_0'); img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false">SCREENSHOT</a><br />
+		        <img id='img_0' style='display: none' src='images/26335872.png'/>
+	        <br /><br />
+	      <table cellspacing="0" cellpadding="7" class="scenario" width="100%">
+	      <tr >
+		  <th colspan="2" class="failed">Buy baseball bat and buy baseball glove</th>
+		</tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Given  I on main page of site &quot;http://www.justballgloves.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select an item from the products grid &quot;http://www.justballgloves.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I add the item to the cart
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select &quot;http://www.justbats.com&quot; from the brand switch at the top of the page
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select an item from the products grid &quot;http://www.justbats.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I add the item to the cart
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I am back to the checkout of &quot;http://www.justballgloves.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/failed.png" alt="failed" title="failed"></td>
+		  <td class="">
+   
+		  When  I check items count &quot;4&quot;
+	<table>
+		<tr class="error">
+			<td class="message">
+				<strong><pre>Subtotal count dont match! (RSpec::Expectations::ExpectationNotMetError)</pre></strong>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<pre class="ruby"><strong>./features/step_definitions/buy_baseball_steps.rb
+</strong><code><span class="linenum">97</span>
+<span class="linenum">98</span><span class="constant">And</span><span class="punct">(/</span><span class="regex">^I check items count &quot;([^&quot;]*)&quot;$</span><span class="punct">/)</span> <span class="keyword">do</span> <span class="punct">|</span><span class="ident">count</span><span class="punct">|</span>
+<span class="offending"><span class="linenum">99</span>  <span class="ident">assert</span> <span class="ident">page</span><span class="punct">.</span><span class="ident">find</span><span class="punct">(</span><span class="symbol">:xpath</span><span class="punct">,</span> <span class="constant">ShoppingCartPage</span><span class="punct">.</span><span class="ident">subtotal_count</span><span class="punct">).</span><span class="ident">should</span> <span class="ident">have_text</span><span class="punct">(</span><span class="ident">count</span><span class="punct">),</span> <span class="punct">'</span><span class="string">Subtotal count dont match!</span><span class="punct">'</span></span>
+<span class="linenum">100</span><span class="keyword">end</span></code></pre>
+			</td>
+		</tr>
+		<tr >
+			<td class="detail">
+					<pre>./features/step_definitions/buy_baseball_steps.rb:99:in `/^I check items count &quot;([^&quot;]*)&quot;$/&#39;
+features\buy_baseball_bat_and_baseball_glove.feature:12:in `And I check items count &quot;&lt;count&gt;&quot;&#39;</pre>
+			</td>
+		</tr>
+	</table>
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I select the checkout button
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I fill in my customer shipping details &quot;http://www.justballgloves.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I fill in my billing information &quot;http://www.justballgloves.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I fill in my payment details &quot;http://www.justballgloves.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  When  I click order button &quot;http://www.justballgloves.com&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/skipped.png" alt="skipped" title="skipped"></td>
+		  <td class="skipped_step">
+   
+		  Then  I capture an order number &quot;4001111&quot;
+
+		  </td>
+		  </tr>
+	      </table>
+	    
+        <div class="img_container">
+		        <a href='' onclick="img=document.getElementById('img_1'); img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false">SCREENSHOT</a><br />
+		        <img id='img_1' style='display: none' src='images/26342244.png'/>
+	        <br /><br />
+	      <table cellspacing="0" cellpadding="7" class="scenario" width="100%">
+	      <tr >
+		  <th colspan="2" class="passed">Buy baseball bat and buy baseball glove</th>
+		</tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Given  I on main page of site &quot;http://www.justballgloves.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select an item from the products grid &quot;http://www.justballgloves.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I add the item to the cart
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select &quot;http://www.justbats.com/mobile&quot; from the brand switch at the top of the page
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select an item from the products grid &quot;http://www.justbats.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I add the item to the cart
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I am back to the checkout of &quot;http://www.justballgloves.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I check items count &quot;2&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select the checkout button
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I fill in my customer shipping details &quot;http://www.justballgloves.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I fill in my billing information &quot;http://www.justballgloves.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I fill in my payment details &quot;http://www.justballgloves.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I click order button &quot;http://www.justballgloves.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Then  I capture an order number &quot;4001111&quot;
+
+		  </td>
+		  </tr>
+	      </table>
+	    
+        <div class="img_container">
+	        <br /><br />
+	      <table cellspacing="0" cellpadding="7" class="scenario" width="100%">
+	      <tr >
+		  <th colspan="2" class="passed">Buy baseball bat and buy baseball glove</th>
+		</tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Given  I on main page of site &quot;http://www.justbats.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select an item from the products grid &quot;http://www.justbats.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I add the item to the cart
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select &quot;http://www.justballgloves.com/mobile&quot; from the brand switch at the top of the page
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select an item from the products grid &quot;http://www.justballgloves.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I add the item to the cart
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I am back to the checkout of &quot;http://www.justbats.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I check items count &quot;4&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I select the checkout button
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I fill in my customer shipping details &quot;http://www.justbats.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I fill in my billing information &quot;http://www.justbats.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I fill in my payment details &quot;http://www.justbats.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  When  I click order button &quot;http://www.justbats.com/mobile&quot;
+
+		  </td>
+		  </tr>
+		  <tr class="borderSeparator">
+		  <td class="image_tag"> <img src="images/passed.png" alt="passed" title="passed"></td>
+		  <td class="">
+   
+		  Then  I capture an order number &quot;4001111&quot;
+
+		  </td>
+		  </tr>
+	      </table>
+	    
+        <div class="img_container">
+	        <br /><br />
+	      </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="footer">
+      Generated by PrettyFace
+    </div>
+  </body>
+</html>
